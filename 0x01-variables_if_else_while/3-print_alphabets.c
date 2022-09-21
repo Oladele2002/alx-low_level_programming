@@ -3,10 +3,13 @@
  * main - Entry point
  *
  * Body - Aphabet
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int al;
+
 	for (al = 'a'; al <= 'z'; al++)
 	{
 		putchar(al);
