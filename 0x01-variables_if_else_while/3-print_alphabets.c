@@ -2,18 +2,19 @@
 /**
  * main - Entry point
  *
- * Body - Aphabet 
+ * Body - Aphabet
  */
 int main(void)
 {
 	int al;
 	for (al = 'a'; al <= 'z'; al++)
 	{
-		putchar(al | "\n");
+		putchar(al);
 	}
 	for (al = 'A'; al <= 'Z'; al++)
 	{
-		putchar(al | "\n");
+		putchar(al);
 	}
+	putchar('\n');
 	return (0);
 }
