@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 
 /**
  * main - Entry point
@@ -8,13 +7,12 @@
  */
 int main(void)
 {
-	int ch;
-	
-	grep -i 'c' 'q' ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		putchar(ch);
+		putchar(i);
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
